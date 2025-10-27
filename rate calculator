@@ -1,0 +1,5 @@
+mincy = int(input("How far was the destination in kilometers?"))
+sketchbook = int(input("What is the rate in Philippine peso?"))
+aspiring_artist = (mincy * sketchbook)
+
+print("The total delivery is approximately ₱", aspiring_artist, ".")
