@@ -1,0 +1,13 @@
+arr = [1, 2, 3, 4, 5]
+
+arr[0] = str(input("First destination? "))
+arr[1] = str(input("Second destination? "))
+arr[2] = str(input("Third destination? "))
+arr[3] = str(input("Fourth destination? "))
+arr[4] = str(input("Final destination? "))
+print("Original iteration:", arr)
+
+print("Let's update your 2nd and 5th destinations.")
+arr[1] = str(input("Enter new destination for position 2: "))
+arr[3] = str(input("Enter new destination for position 4: "))
+print("Updated iteration:", arr)
